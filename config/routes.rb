@@ -16,4 +16,8 @@ Rails.application.routes.draw do
   root to: 'articles#index'
 
   resources :articles, only: [:show]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 87e15ae2b0d511fba129229f871d0dfe94a6a1e7
 end
